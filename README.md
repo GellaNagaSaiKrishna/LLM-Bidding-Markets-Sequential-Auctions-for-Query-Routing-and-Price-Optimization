@@ -10,3 +10,6 @@ The platform mediating these interactions seeks to optimize both user utility an
 For simplicity we have used only 2 LLMs to illustrate the concept. These LLMs are     
       i.  Model-1 [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)    
       ii. Model-2 [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)    
+To test the model we have chosen a simple City Capital dataset from the [kaggle](https://www.kaggle.com/datasets/dataanalyst001/all-capital-cities-in-the-world)  
+In each round we give input as country name and our mechanism choses the best llm and makes it output Capital, Continent, Latitude and Longitude. After each round we check the answer outputed from LLM with answers in the dataset and update the accuracies of the LLM.
+
