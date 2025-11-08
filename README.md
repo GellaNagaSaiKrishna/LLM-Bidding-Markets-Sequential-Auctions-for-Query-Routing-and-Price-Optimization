@@ -5,7 +5,7 @@ This project models query routing as a sequential auction, where each user query
 The platform mediating these interactions seeks to optimize both user utility and overall profit, subject to strategic model behavior, possibly limited budgets, and learning dynamics. We investigate theoretical models and simulation-based implementations of such a marketplace, drawing insights from mechanism design, online learning, and reinforcement learning.
 
 ## Theory behind the project
-We conduct an auction between all the LLMs, and we chose an LLM such that our reward is maximized(greedy approach). In each step we compute the expected reward using the UCB Algorithm, and chose the best LLM with Reverse Myerson Auctions. For Mathematical derivation of Myerson Auction refer [here]([https://drive.google.com/drive/quota](https://drive.google.com/drive/search?q=myerson)).
+We conduct an auction between all the LLMs, and we chose an LLM such that our reward is maximized(greedy approach). In each step we compute the expected reward using the UCB Algorithm, and chose the best LLM with Reverse Myerson Auctions. For Mathematical derivation of Myerson Auction refer [here](https://drive.google.com/drive/search?q=myerson).
 We pay the LLM the min(upper bound(reservation price),next_lowest_bid). If all LLM have cost more than the reservation price we skip the round.
 
 ## Implementation of the project
