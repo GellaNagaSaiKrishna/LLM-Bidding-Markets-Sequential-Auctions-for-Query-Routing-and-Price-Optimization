@@ -8,5 +8,5 @@ The platform mediating these interactions seeks to optimize both user utility an
 
 ## Implementation of the project
 For simplicity we have used only 2 LLMs to illustrate the concept. These LLMs are
-      i.  Model-1 [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct)
-      ii. Model-2 [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct)
+      i.  Model-1 [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct) ..
+      ii. Model-2 [Llama-3.2-3B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) ..
